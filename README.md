@@ -2,7 +2,7 @@
 
 This is a portfolio website which was developed with React (create-react-app).
 
-!(https://res.cloudinary.com/dtrp5gl4m/image/upload/v1699690519/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA4_wqteww.png)
+![image](https://res.cloudinary.com/dtrp5gl4m/image/upload/v1699690519/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA4_wqteww.png)
 
 ## Demo
 
