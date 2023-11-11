@@ -38,7 +38,7 @@ const Banner = () => {
               viewport={{ once: true, amount: 0.7 }}
               className="mb-6 text-[30px] lg:text-[60px] font-semibold uppercase leading-[1]"
             >
-              <span className="text-white mr-4">Кто я?</span>
+              <span className="text-white mr-4">Кто он?</span>
               <TypeAnimation
                 sequence={[
                   "Web",
