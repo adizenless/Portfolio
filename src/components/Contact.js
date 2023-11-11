@@ -29,7 +29,7 @@ const Contact = () => {
       );
   };
   return (
-    <section className="py-16 lg:section" id="contact">
+    <section className="py-16 lg:section md:mt-24" id="contact">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           {/* text */}
@@ -40,12 +40,12 @@ const Contact = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 flex justify-start items-center"
           >
-            <div>
+            <div className="md:mb-12">
               <h4 className="text-xl uppercase text-accent font-medium mb-2 tracking-wide">
-                Написать мне
+                Написать
               </h4>
-              <h2 className="text-[45px] lg:text-[90px] leading-none mb-12">
-                Давайте работать <br /> вместе!
+              <h2 className="text-[38px] lg:text-[90px] leading-none mb-12">
+                Давайте общаться!
               </h2>
             </div>
           </motion.div>
@@ -57,26 +57,26 @@ const Contact = () => {
             viewport={{ once: false, amount: 0.3 }}
             ref={form}
             onSubmit={sendEmail}
-            className="flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start"
+            className="flex-1 border rounded-2xl flex flex-col pb-6 p-6 items-start mb-20 md:mb-32"
           >
             <input
-              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all rounded-md"
+              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all rounded-md mb-6"
               type="text"
               placeholder="Ваше имя"
               name="user_name"
             />
             <input
-              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all rounded-md"
+              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all rounded-md mb-6"
               type="email"
               placeholder="Ваш Email"
               name="user_email"
             />
             <textarea
-              className="bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all mb-12"
+              className="bg-transparent border-b mt-8 pb-12 outline-none w-full placeholder:text-white focus:border-accent transition-all mb-12"
               placeholder="Ваше сообщение"
               name="message"
             ></textarea>
-            <button className="btn btn-lg">Отправить сообщение</button>
+            <button className="btn btn-lg">Отправить</button>
           </motion.form>
         </div>
       </div>

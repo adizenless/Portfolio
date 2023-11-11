@@ -36,16 +36,14 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="mb-6 text-[36px] lg:text-[60px] font-semibold uppercase leading-[1]"
+              className="mb-6 text-[30px] lg:text-[60px] font-semibold uppercase leading-[1]"
             >
               <span className="text-white mr-4">Кто я?</span>
               <TypeAnimation
                 sequence={[
-                  "Разработчик",
+                  "Web",
                   2000,
-                  "Дизайнер",
-                  2000,
-                  "Инженер",
+                  "Developer",
                   2000,
                 ]}
                 speed={50}
@@ -71,13 +69,13 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
+              className="flex max-w-max items-center mb-12 mx-auto lg:mx-0"
             >
               <a href="#contact">
-                <button className="btn btn-lg">Написать мне</button>
+                <button className="btn btn-lg mr-2">Написать</button>
               </a>
-              <a href="#work" className="text-gradient btn-link">
-                Мое Портфолио
+              <a href="#work" className="text-gradient btn-link ml-2">
+                Портфолио
               </a>
             </motion.div>
             {/* socials */}
@@ -86,12 +84,12 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
+              className="flex text-[20px] max-w-max mx-auto lg:mx-0"
             >
-              <a href="https://github.com/adizenless" target="_blank">
+              <a href="https://github.com/adizenless" target="_blank" className="mr-2">
                 <FaGithub />
               </a>
-              <a href="https://dribbble.com/adijigit" target="_blank">
+              <a href="https://dribbble.com/adijigit" target="_blank" className="ml-2">
                 <FaDribbble />
               </a>
             </motion.div>

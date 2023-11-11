@@ -14,7 +14,7 @@ const Header = () => {
           {/* button */}
           <a href='#contact'>
             <button className="btn btn-sm font-['Roboto'] tracking-wider">
-              Работай со мной
+              Написать
             </button>
           </a>
         </div>

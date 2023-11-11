@@ -12,19 +12,19 @@ const services = [
     name: "UI/UX Дизайн",
     description:
       "UI/UX дизайн (User Interface/User Experience design) - это процесс создания интерфейсов для веб-сайтов, мобильных приложений и других цифровых продуктов с учетом потребностей пользователей и целей бизнеса",
-    link: "Узнать больше",
+    link: "Узнать",
   },
   {
     name: "Разработка",
     description:
       "Когда вы говорите 'разработка по', вероятно, вы имеете в виду процесс разработки программного обеспечения (ПО). Разработка ПО - это создание и совершенствование компьютерных программ, веб-приложений",
-    link: "Узнать больше",
+    link: "Узнать",
   },
 ];
 
 const Services = () => {
   return (
-    <section className="section" id="services">
+    <section className="section mt-24" id="services">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           {/* text */}
@@ -36,7 +36,7 @@ const Services = () => {
             className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0"
           >
             <h2 className="h2 text-accent mb-6">Что Я Делаю.</h2>
-            <h3 className="h3 max-w-[455px] mb-16">
+            <h3 className="h3 max-w-[455px] leading-9 mb-8">
               Как Fullstack разработчик, Adi обладает глубокими знаниями в
               области веб-разработки.
             </h3>
@@ -71,7 +71,7 @@ const Services = () => {
                     <div className="flex flex-col flex-1 items-end">
                       <a
                         href="#"
-                        className="btn w-9 h-9 mb-[42px] flex justify-center items-center"
+                        className="btn w-9 h-9 mb-[10px] flex justify-center items-center"
                       >
                         <BsArrowUpRight />
                       </a>

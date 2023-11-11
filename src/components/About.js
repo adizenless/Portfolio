@@ -33,7 +33,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="max-w-lg"
           >
-            <h2 className="text-[40px] mb-6 font-bold uppercase text-accent">
+            <h2 className="text-[40px] mb-6 font-bold  text-accent">
               Об Adi Jigit
             </h2>
             <h3 className="text-[16px] mb-4 leading-6">
@@ -48,12 +48,12 @@ const About = () => {
               опытом, Adi способен реализовать сложные проекты и обеспечить их
               успешное выполнение.
             </p>
-            <div className="flex gap-x-8 items-center">
+            <div className="flex items-center">
               <a href="#contact">
-                <button className="btn btn-lg">Написать мне</button>
+                <button className="btn btn-lg mr-2">Написать</button>
               </a>
-              <a href="#work" className="text-gradient btn-link">
-                Мое Портфолио
+              <a href="#work" className="text-gradient btn-link ml-2">
+                Портфолио
               </a>
             </div>
           </motion.div>
