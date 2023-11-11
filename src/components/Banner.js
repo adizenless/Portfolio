@@ -4,7 +4,7 @@ import React from "react";
 // images
 import Image from "../assets/avatar.png";
 // icons
-import { FaGithub, FaYoutube, FaDribbble } from "react-icons/fa";
+import { FaGithub, FaDribbble } from "react-icons/fa";
 // type animation
 import { TypeAnimation } from "react-type-animation";
 // motion
