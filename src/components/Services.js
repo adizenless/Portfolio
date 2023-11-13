@@ -37,7 +37,7 @@ const Services = () => {
           >
             <h2 className="h2 text-accent mb-6">Что Я Делаю.</h2>
             <h3 className="h3 max-w-[455px] leading-9 mb-8">
-              Как Fullstack разработчик, Adi обладает глубокими знаниями в
+              Как Frontend разработчик, Adi обладает глубокими знаниями в
               области веб-разработки.
             </h3>
             <a href="#work">

@@ -41,7 +41,7 @@ const Banner = () => {
               <span className="text-white mr-4">Кто он?</span>
               <TypeAnimation
                 sequence={[
-                  "Web",
+                  "Frontend",
                   2000,
                   "Developer",
                   2000,
